@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repositories" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repositories/100-Days-Of-ML-Code" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repositories/ML-For-Beginners" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repositories/Made-With-ML" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repositories/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repositories/TensorFlow-Examples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repositories/google-research" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repositories/handson-ml" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repositories/homemade-machine-learning" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repositories/learnopencv" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repositories/pydata-book" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repositories/pytorch-handbook" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repositories/pytudes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repositories/reinforcement-learning" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repositories/shap" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repositories/stable-diffusion" vcs="Git" />
+  </component>
+</project>
