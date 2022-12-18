@@ -18,6 +18,8 @@ def download_repositories(number: int, page_number: int) -> None:
     for i in range(0, number * 3, 3):
         urls.append(resp.json()['items'][i]['html_url'])
 
+    print(urls)
+
     for url in urls:
         subprocess.run(['git', 'clone', '--depth', '1', url, './repositories/' + url.split('/')[-1]])
 
@@ -102,10 +104,10 @@ def delete_files() -> None:
 
 
 if __name__ == '__main__':
-    # download_good_repositories(10)
-    download_bad_repositories(10)
+    download_good_repositories(1)
+    # download_bad_repositories(10)
     extract_jupyter_notebooks()
     convert_notebooks_to_python()
-    # scan_python_files()
-    scan_bad_python_files()
-    delete_files()
+    scan_python_files()
+    # scan_bad_python_files()
+    # delete_files()
