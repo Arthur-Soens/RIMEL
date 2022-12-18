@@ -12,3 +12,15 @@ services:
       - ./sonarqube/data:/opt/sonarqube/data
       - ./sonarqube/extensions:/opt/sonarqube/extensions
       - ./sonarqube/logs:/opt/sonarqube/logs
+
+  sonar-bad:
+    image: sonarqube:latest
+    container_name: retro-sonarqube-bad
+    ports:
+      - "9001:9000"
+    environment:
+      - SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true
+    volumes:
+      - ./sonarqube-bad/data:/opt/sonarqube/data
+      - ./sonarqube-bad/extensions:/opt/sonarqube/extensions
+      - ./sonarqube-bad/logs:/opt/sonarqube/logs
