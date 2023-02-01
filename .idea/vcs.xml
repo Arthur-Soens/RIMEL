@@ -3,7 +3,5 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/repositories" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/repositories/TensorFlow-Course" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/repositories/pytudes" vcs="Git" />
   </component>
 </project>

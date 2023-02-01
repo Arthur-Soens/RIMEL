@@ -80,7 +80,6 @@ def analyse_sonarqube() -> None:
                         '-Dsonar.login=sqa_cef5900dd30278f974d984b3f3f2d5cb7a8beb4b'])
     print("Python files scanned !")
 
-
 def scan_bad_python_files() -> None:
     print("Scanning python files for code quality...")
     for file in os.listdir('./python-scripts/'):
@@ -114,6 +113,12 @@ def analyse_code_climate() -> None:
         subprocess.run(['codeclimate', 'analyze', './python-scripts/' + file])
     print("Code climate analysed !")
 
+def analyse_pylint() -> None:
+    print("Analysing with pylint...")
+    for file in os.listdir('./python-scripts/'):
+        with open('./pylint-output/'+file+'.txt', "w+") as outfile:
+            subprocess.run(['pylint', './python-scripts/' + file],stdout=outfile)
+    print("Pylint analysed !")
 
 if __name__ == '__main__':
     # download_average_repositories(30)
@@ -122,6 +127,7 @@ if __name__ == '__main__':
     # extract_jupyter_notebooks()
     # convert_notebooks_to_python()
     # analyse_sonarqube()
-    analyse_code_climate()
+    # analyse_code_climate()
     # scan_bad_python_files()
     # delete_files()
+    analyse_pylint()
