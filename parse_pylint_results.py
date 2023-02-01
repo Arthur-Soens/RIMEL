@@ -50,7 +50,7 @@ def main() :
         else :
             rates_range['8-10'] += 1
 
-    plt.title('Mean rate of notebook')
+    plt.title('Number of notebook per rate')
     plt.plot(rates.keys(),rates.values(), 'o')
     plt.xticks([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
     plt.xlabel('Rate')
