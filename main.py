@@ -4,7 +4,7 @@ import requests
 
 
 def download_repositories(number: int, page_number: int) -> None:
-    token = "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"
+    token = "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"
     url = "https://api.github.com/search/repositories?q=language:jupyter-notebook&order=desc&page=" + str(page_number)
     headers = {
         'Accept': 'application/vnd.github.preview.text-match+json',
@@ -18,10 +18,15 @@ def download_repositories(number: int, page_number: int) -> None:
     for i in range(0, number * 3, 3):
         urls.append(resp.json()['items'][i]['html_url'])
 
-    print(urls)
-
     for url in urls:
         subprocess.run(['git', 'clone', '--depth', '1', url, './repositories/' + url.split('/')[-1]])
+
+
+def download_average_repositories(number: int) -> None:
+    print(f'Downloading {number} repositories from GitHub...')
+    for i in range(1, number):
+        download_repositories(1, i)
+    print('Good repositories downloaded !')
 
 
 def download_good_repositories(number: int) -> None:
@@ -61,7 +66,7 @@ def convert_notebooks_to_python() -> None:
     print("Non python files removed !")
 
 
-def scan_python_files() -> None:
+def analyse_sonarqube() -> None:
     print("Scanning python files for code quality...")
     for file in os.listdir('./python-scripts/'):
         subprocess.run(['curl', '-X', 'POST', 'http://localhost:9000/api/projects/create?name=' + file[:-3]
@@ -103,11 +108,20 @@ def delete_files() -> None:
     print("All files deleted !")
 
 
+def analyse_code_climate() -> None:
+    print("Analysing on code climate...")
+    for file in os.listdir('./python-scripts/'):
+        subprocess.run(['codeclimate', 'analyze', './python-scripts/' + file])
+    print("Code climate analysed !")
+
+
 if __name__ == '__main__':
-    download_good_repositories(1)
-    # download_bad_repositories(10)
-    extract_jupyter_notebooks()
-    convert_notebooks_to_python()
-    scan_python_files()
+    # download_average_repositories(30)
+    # download_good_repositories(1)
+    # download_bad_repositories(1)
+    # extract_jupyter_notebooks()
+    # convert_notebooks_to_python()
+    # analyse_sonarqube()
+    analyse_code_climate()
     # scan_bad_python_files()
     # delete_files()
