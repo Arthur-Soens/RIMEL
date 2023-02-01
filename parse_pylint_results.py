@@ -66,7 +66,7 @@ def main() :
     plt.show()
 
     errors = sorted(errors_list.items(), key=lambda item: item[1], reverse=True)
-    recurrents_errors = errors[0:10]
+    recurrents_errors = errors[0:20]
     for error in recurrents_errors :
         print(str(error[1]) + " -" + error[0] + " : " + errors_dict[error[0]])
 
