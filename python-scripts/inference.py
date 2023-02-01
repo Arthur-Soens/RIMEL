@@ -21,7 +21,6 @@ import onnxruntime as rt
 from scipy import special
 import colorsys
 import random
-%matplotlib inline
 
 def image_preprocess(image, target_size, gt_boxes=None):
 
@@ -317,5 +316,4 @@ image = draw_bbox(original_image, bboxes)
 image = Image.fromarray(image)
 image.show()
 
-%matplotlib inline
 imshow(np.asarray(image))

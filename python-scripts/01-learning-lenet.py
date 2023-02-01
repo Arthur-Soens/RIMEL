@@ -13,7 +13,6 @@
 
 
 from pylab import *
-%matplotlib inline
 
 # * Import `caffe`, adding it to `sys.path` if needed. Make sure you've built pycaffe.
 

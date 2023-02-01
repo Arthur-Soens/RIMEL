@@ -357,7 +357,6 @@ except KeyboardInterrupt:
 # In[25]:
 
 
-%matplotlib inline
 import matplotlib.pyplot as plt
 plt.plot(loss_track)
 print('loss {:.4f} after {} examples (batch_size={})'.format(loss_track[-1], len(loss_track)*batch_size, batch_size))

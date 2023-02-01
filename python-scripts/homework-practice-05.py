@@ -57,7 +57,6 @@ sns.set(style='whitegrid')
 import warnings
 warnings.filterwarnings('ignore')
 
-%matplotlib inline
 
 # # 1. Решающие деревья. Визуализация.
 

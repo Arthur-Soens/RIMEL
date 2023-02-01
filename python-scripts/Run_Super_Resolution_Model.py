@@ -21,7 +21,6 @@ from resizeimage import resizeimage
 import numpy as np
 import pdb
 import onnx
-%matplotlib inline
 
 # # Super Resolution Model Definition in Pytorch
 

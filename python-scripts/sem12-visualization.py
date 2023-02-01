@@ -33,7 +33,6 @@
 # In[1]:
 
 
-%matplotlib inline
 import numpy as np
 import pandas
 from matplotlib import pyplot as plt

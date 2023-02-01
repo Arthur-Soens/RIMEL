@@ -12,7 +12,6 @@
 
 from __future__ import print_function, division
 
-%matplotlib inline
 import numpy as np
 import matplotlib.pyplot as plt
 

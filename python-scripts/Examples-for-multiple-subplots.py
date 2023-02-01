@@ -6,7 +6,6 @@
 # In[1]:
 
 
-%matplotlib inline
 import matplotlib.pyplot as plt # Matplotlib 2.0 shown here
 from adjustText import adjust_text
 import numpy as np

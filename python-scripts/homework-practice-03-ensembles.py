@@ -53,7 +53,6 @@ X = np.random.multivariate_normal(np.ones(10), np.eye(10), size=1000)
 
 
 from matplotlib import pyplot as plt
-%matplotlib inline
 
 # In[ ]:
 

@@ -72,7 +72,6 @@ print(train_labels)
 # In[6]:
 
 
-%matplotlib inline
 import matplotlib.pyplot as plt
 
 plt.figure()

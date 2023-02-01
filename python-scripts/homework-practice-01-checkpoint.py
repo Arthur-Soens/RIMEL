@@ -88,7 +88,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-%matplotlib inline
 
 data_size = np.array([10, 30, 70, 120])
 time_non_vectorized = data_size ** 2 + 10

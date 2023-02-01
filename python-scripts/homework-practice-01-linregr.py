@@ -107,7 +107,6 @@ for exp_num in range(100):
 
 
 import pandas as pd
-%matplotlib inline
 
 # **6. (0.3 балла)** Какая из причин отмены рейса (`CancellationCode`) была самой частой? (расшифровки кодов можно найти в описании данных)
 

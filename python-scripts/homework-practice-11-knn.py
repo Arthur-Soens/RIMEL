@@ -382,7 +382,6 @@ print(true_neighbors_eucl.shape)
 
 
 import matplotlib.pyplot as plt
-%matplotlib inline
 
 plt.figure(figsize=(16, 4))
 plt.subplot(141)

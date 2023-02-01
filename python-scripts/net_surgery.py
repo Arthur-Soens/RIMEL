@@ -12,7 +12,6 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-%matplotlib inline
 
 # Make sure that caffe is on the python path:
 caffe_root = '../'  # this file is expected to be in {caffe_root}/examples
@@ -174,7 +173,6 @@ net_full_conv.save('net_surgery/bvlc_caffenet_full_conv.caffemodel')
 
 import numpy as np
 import matplotlib.pyplot as plt
-%matplotlib inline
 
 # load input and configure preprocessing
 im = caffe.io.load_image('images/cat.jpg')

@@ -148,7 +148,6 @@ fe = 'cross-entropy'
 
 
 # Switch to non-interactive matplotlib
-%matplotlib inline
 set_default()
 
 # In[ ]:

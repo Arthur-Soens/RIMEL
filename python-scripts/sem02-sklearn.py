@@ -427,7 +427,6 @@ import pandas as pd
 import seaborn as sns
 sns.set(style='whitegrid')
 
-%matplotlib inline
 
 # ## 1. Загрузка данных
 

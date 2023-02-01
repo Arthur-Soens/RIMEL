@@ -475,7 +475,6 @@ print(time.clock() - start)
 
 import os
 import pandas as pd
-%matplotlib inline
 
 # **Pandas** (Python Data Analysis Library) — библиотека языка Python для [удобных] обработки и анализа данных.
 # 
@@ -699,7 +698,6 @@ pass_data.to_csv('titanic_2.csv', index=False)
 # In[93]:
 
 
-%matplotlib inline
 import matplotlib.pyplot as plt
 
 # In[94]:

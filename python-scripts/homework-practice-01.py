@@ -263,7 +263,6 @@ data = np.random.rand(10, 3)
 # In[ ]:
 
 
-%matplotlib inline  # нужно для отображения графиков внутри ноутбука
 import matplotlib.pyplot as plt
 
 # На самом деле мы уже импортировали matplotlib внутри %pylab inline в начале задания.

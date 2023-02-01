@@ -15,7 +15,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import random
 
-%matplotlib inline
 %config InlineBackend.figure_format = 'retina'
 
 import string

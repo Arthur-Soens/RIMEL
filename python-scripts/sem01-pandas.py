@@ -454,7 +454,6 @@ corrmat
 
 
 # импорт библиотек для графиков
-%matplotlib inline
 import matplotlib.pyplot as plt
 import seaborn as sns
 
@@ -540,7 +539,6 @@ data.to_excel('end_seminar.xlsx', index=False)
 # In[53]:
 
 
-%matplotlib inline
 import numpy as np
 import pandas as pd
 from datetime import timedelta

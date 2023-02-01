@@ -26,7 +26,6 @@ caffe.set_mode_gpu()
 
 import numpy as np
 from pylab import *
-%matplotlib inline
 import tempfile
 
 # Helper function for deprocessing preprocessed images, e.g., for display.

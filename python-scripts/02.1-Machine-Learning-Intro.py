@@ -44,7 +44,6 @@
 # In[ ]:
 
 
-%matplotlib inline
 import matplotlib.pyplot as plt
 
 plt.style.use('seaborn')

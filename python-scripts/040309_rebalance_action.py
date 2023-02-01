@@ -104,7 +104,6 @@ spx = spx.groupby('Pricing Date').agg({('Static Instrument Data', 'number_of_opt
 
 
 import matplotlib.pyplot as plt
-%matplotlib inline
 plt.plot(ndx['Static Instrument Data']['number_of_options']['sum'],label='NDX')
 plt.plot(spx['Static Instrument Data']['number_of_options']['sum'],label='SPX')
 

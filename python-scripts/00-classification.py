@@ -18,7 +18,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 # display plots in this notebook
-%matplotlib inline
 
 # set display defaults
 plt.rcParams['figure.figsize'] = (10, 10)        # large images

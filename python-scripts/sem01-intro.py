@@ -323,7 +323,6 @@ data[data.ttype == 1].describe()
 # In[34]:
 
 
-%matplotlib inline
 import matplotlib.pyplot as plt
 import seaborn as sns
 

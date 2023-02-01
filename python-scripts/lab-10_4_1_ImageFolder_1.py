@@ -15,7 +15,6 @@ from torch.utils.data import DataLoader
 
 
 from matplotlib.pyplot import imshow
-%matplotlib inline
 
 # In[ ]:
 

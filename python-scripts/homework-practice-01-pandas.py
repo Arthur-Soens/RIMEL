@@ -260,7 +260,6 @@ import pandas as pd
 # In[1]:
 
 
-%matplotlib inline
 import matplotlib.pyplot as plt
 import seaborn as sns
 

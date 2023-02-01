@@ -26,7 +26,6 @@
 
 import torchvision
 from matplotlib.pyplot import imshow
-%matplotlib inline
 
 # In[ ]:
 

@@ -35,7 +35,6 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-%matplotlib inline
 
 df = pd.read_hdf('_temp/det_output.h5', 'df')
 print(df.shape)

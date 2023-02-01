@@ -19,7 +19,6 @@ import pandas as pd
 import numpy as np
 import warnings
 warnings.simplefilter("ignore")
-%matplotlib inline
 
 sns.set(style="darkgrid")
 

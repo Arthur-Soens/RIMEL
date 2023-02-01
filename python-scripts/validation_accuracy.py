@@ -4,7 +4,6 @@
 # In[1]:
 
 
-%matplotlib inline
 import matplotlib.pyplot as plt
 from pycocotools.coco import COCO
 from pycocotools.mask import iou, encode

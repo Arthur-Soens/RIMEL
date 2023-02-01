@@ -62,7 +62,6 @@ pd.set_option('max_rows', 10)
 pd.set_option('max_columns', None)
 plt.style.use('bmh')
 
-%matplotlib inline
 
 # __Задание 1 (1 балл).__ Загрузка и предобработка данных.
 

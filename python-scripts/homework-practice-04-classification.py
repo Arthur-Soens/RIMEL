@@ -44,7 +44,6 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-%matplotlib inline
 
 pd.set_option('display.max_rows', 100)
 pd.set_option('display.max_columns', 100)

@@ -4,7 +4,6 @@
 # In[1]:
 
 
-%matplotlib inline
 import matplotlib.pyplot as plt
 import cv2
 from kitti_object import kitti_object, show_lidar_with_depth, show_lidar_on_image, \

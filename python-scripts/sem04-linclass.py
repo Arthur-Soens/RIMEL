@@ -335,7 +335,6 @@ print 'Accuracy =', metrics.accuracy_score(y_test, preds_sgd)
 # In[19]:
 
 
-%matplotlib inline
 from sklearn.cross_validation import train_test_split
 
 X_train_curve, X_test_curve, y_train_curve, y_test_curve = train_test_split(X, y, test_size=0.2)

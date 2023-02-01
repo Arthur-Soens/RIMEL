@@ -73,7 +73,6 @@ classes = ('plane', 'car', 'bird', 'cat',
 
 import matplotlib.pyplot as plt
 import numpy as np
-%matplotlib inline
 # functions to show an image
 
 
